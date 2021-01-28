@@ -1,2 +1,2 @@
-# udlabs-ft232r
-Upside Down Lab's FT232R UART bridge breakout board.
+# Candy UART
+Candy size USB to UART bridge.
