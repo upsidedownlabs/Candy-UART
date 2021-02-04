@@ -4,6 +4,16 @@
 
 Candy size USB to UART bridge.
 
+#### CH340C Candy
+
+| Front              |  Back |
+| :-------------------------: | :-------------------------: |
+| ![Upside Down Labs Candy UART - CH340C front](images/CH340C_front.png)  | ![Upside Down Labs Candy UART - CH340C back](images/CH340C_back.png) |
+
+| Dimensions              |  Schematic |
+| :-------------------------: | :-------------------------: |
+| 24.00 x 17.00 mm![Upside Down Labs Candy UART - CH340C dimensions](images/CH340C_dimensions.png)  | ![Upside Down Labs Candy UART - CH340C schematic](images/CH340C_schematic.png) |
+
 #### FT232RQ Candy
 
 | Front              |  Back |
