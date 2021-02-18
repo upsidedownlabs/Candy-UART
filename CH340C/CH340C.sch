@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Candy UART"
-Date "2021-02-04"
-Rev "v0.4"
+Date "2021-02-18"
+Rev "v0.5"
 Comp "Upside Down Labs"
 Comment1 ""
 Comment2 "Candy size UART bridge"
@@ -14,30 +14,19 @@ Comment3 "CH340C USB to UART Bridge"
 Comment4 "Candy UART - CH340C"
 $EndDescr
 $Comp
-L Connector:USB_C_Plug_USB2.0 P1
-U 1 1 5FC51652
-P 3600 1830
-F 0 "P1" H 3600 2730 50  0000 C CNN
-F 1 "USB_C_Plug_USB2.0" H 3600 2630 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 3750 1830 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3750 1830 50  0001 C CNN
-	1    3600 1830
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 5FC58946
-P 3600 2730
-F 0 "#PWR0101" H 3600 2480 50  0001 C CNN
-F 1 "GND" H 3605 2557 50  0000 C CNN
-F 2 "" H 3600 2730 50  0001 C CNN
-F 3 "" H 3600 2730 50  0001 C CNN
-	1    3600 2730
+P 3700 2570
+F 0 "#PWR0101" H 3700 2320 50  0001 C CNN
+F 1 "GND" H 3705 2397 50  0000 C CNN
+F 2 "" H 3700 2570 50  0001 C CNN
+F 3 "" H 3700 2570 50  0001 C CNN
+	1    3700 2570
 	1    0    0    -1  
 $EndComp
-Text GLabel 4200 1730 2    50   Input ~ 0
+Text GLabel 4300 1670 2    50   Input ~ 0
 D-
-Text GLabel 4200 1930 2    50   Input ~ 0
+Text GLabel 4300 1770 2    50   Input ~ 0
 D+
 Text GLabel 2840 5360 0    50   Input ~ 0
 D-
@@ -76,12 +65,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0109
 U 1 1 5FCA1CB3
-P 4200 1230
-F 0 "#PWR0109" H 4200 1080 50  0001 C CNN
-F 1 "+5V" V 4215 1358 50  0000 L CNN
-F 2 "" H 4200 1230 50  0001 C CNN
-F 3 "" H 4200 1230 50  0001 C CNN
-	1    4200 1230
+P 4300 1070
+F 0 "#PWR0109" H 4300 920 50  0001 C CNN
+F 1 "+5V" V 4315 1198 50  0000 L CNN
+F 2 "" H 4300 1070 50  0001 C CNN
+F 3 "" H 4300 1070 50  0001 C CNN
+	1    4300 1070
 	0    1    1    0   
 $EndComp
 $Bitmap
@@ -636,12 +625,12 @@ $EndComp
 $Comp
 L power:GND #PWR0121
 U 1 1 602306E2
-P 3300 2730
-F 0 "#PWR0121" H 3300 2480 50  0001 C CNN
-F 1 "GND" H 3305 2557 50  0000 C CNN
-F 2 "" H 3300 2730 50  0001 C CNN
-F 3 "" H 3300 2730 50  0001 C CNN
-	1    3300 2730
+P 3400 2570
+F 0 "#PWR0121" H 3400 2320 50  0001 C CNN
+F 1 "GND" H 3405 2397 50  0000 C CNN
+F 2 "" H 3400 2570 50  0001 C CNN
+F 3 "" H 3400 2570 50  0001 C CNN
+	1    3400 2570
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -725,8 +714,8 @@ F 3 "" H 9010 1395 50  0001 C CNN
 	1    9010 1395
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4200 1430
-NoConn ~ 4200 1530
+NoConn ~ 4300 1370
+NoConn ~ 4300 1270
 NoConn ~ 3640 5360
 NoConn ~ 3640 5460
 NoConn ~ 2840 5060
@@ -848,4 +837,19 @@ Text GLabel 9320 5075 0    50   Input ~ 0
 VCC
 Text GLabel 3240 4760 1    50   Input ~ 0
 VCC
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 602E3FEE
+P 3700 1670
+F 0 "J1" H 3807 2537 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 3807 2446 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 3850 1670 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3850 1670 50  0001 C CNN
+	1    3700 1670
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 1570 2    50   Input ~ 0
+D-
+Text GLabel 4300 1870 2    50   Input ~ 0
+D+
 $EndSCHEMATC
